@@ -39,7 +39,7 @@
           "msvs_settings": {
             "VCCLCompilerTool": {
               "AdditionalOptions": [
-                "/std:c++17",
+                "/std:c++20",
               ],
               "RuntimeLibrary": 0,
             },
@@ -47,7 +47,7 @@
         }],
         ["OS == 'linux'", {
           "cflags_cc": [
-            "-Wno-cast-function-type"
+            "-Wno-cast-function-type -std=c++20"
           ]
         }],
       ]
