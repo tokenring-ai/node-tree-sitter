@@ -31,7 +31,7 @@
         ["OS=='mac'", {
           "xcode_settings": {
             "GCC_SYMBOLS_PRIVATE_EXTERN": "YES", # -fvisibility=hidden
-            "CLANG_CXX_LANGUAGE_STANDARD": "c++17",
+            "CLANG_CXX_LANGUAGE_STANDARD": "c++20",
             "MACOSX_DEPLOYMENT_TARGET": "10.9",
           },
         }],
