@@ -1,6 +1,6 @@
 const binding = typeof process.versions.bun === "string" ?
     // Statically analyzable enough for `bun build --compile` to embed the tree-sitter.node napi addon
-    require(`./prebuilds/${process.platform}-${process.arch}/tree-sitter.node`) :
+    require(`./prebuilds/${process.platform}-${process.arch}/tree-sitter-tr.node`) :
     require('node-gyp-build')(__dirname);
 const {Query, Parser, NodeMethods, Tree, TreeCursor, LookaheadIterator} = binding;
 
