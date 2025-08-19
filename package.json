@@ -1,8 +1,8 @@
 {
-  "name": "tree-sitter",
+  "name": "tree-sitter-tr",
   "version": "0.25.0",
   "description": "Node.js bindings to the Tree-sitter parsing library",
-  "repository": "http://github.com/tree-sitter/node-tree-sitter",
+  "repository": "http://github.com/tokenring-ai/node-tree-sitter",
   "publishConfig": {
     "access": "public"
   },
